@@ -8,7 +8,7 @@
 
 import PromiseKit
 #if !Web3CocoaPods
-    import Web3
+    import SafeWeb3
 #endif
 
 public protocol Promisable {

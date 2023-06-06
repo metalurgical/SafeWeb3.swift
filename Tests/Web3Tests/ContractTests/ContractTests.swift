@@ -7,7 +7,7 @@
 
 import Quick
 import Nimble
-@testable import Web3
+@testable import SafeWeb3
 import BigInt
 import PromiseKit
 import Foundation

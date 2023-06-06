@@ -7,7 +7,7 @@
 
 import Foundation
 #if !Web3CocoaPods
-    import Web3
+    import SafeWeb3
 #endif
 
 public extension Web3.Eth {

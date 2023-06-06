@@ -10,7 +10,7 @@
 
 import XCTest
 import Quick
-@testable import Web3Tests
+@testable import SafeWeb3Tests
 
 QCKMain([
     // ABITests
