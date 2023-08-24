@@ -38,7 +38,7 @@ let package = Package(
             dependencies: [
                 .product(name: "BigInt", package: "BigInt"),
                 .product(name: "CryptoSwift", package: "CryptoSwift"),
-                "secp256k1",
+                .product(name: "secp256k1", package: "secp256k1"),
             ],
             path: "Sources",
             sources: ["Core", "FoundationHTTP"]),
