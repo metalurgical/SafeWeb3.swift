@@ -47,6 +47,7 @@ let package = Package(
             dependencies: [
                 .target(name: "SafeWeb3"),
                 .product(name: "PromiseKit", package: "PromiseKit"),
+                "secp256k1",
             ],
             path: "Sources",
             sources: ["PromiseKit"]),
@@ -56,6 +57,7 @@ let package = Package(
                 .target(name: "SafeWeb3"),
                 .product(name: "BigInt", package: "BigInt"),
                 .product(name: "CryptoSwift", package: "CryptoSwift"),
+                "secp256k1",
             ],
             path: "Sources",
             sources: ["ContractABI"]),
